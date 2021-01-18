@@ -1,0 +1,106 @@
+// Start Line ABOUT 
+.ABOUT{
+    padding: 60px 0;
+    .container{
+        // display: flex;
+        h1{
+            color: $Secoundcolor;
+        }
+
+    }
+}
+// End Line ABOUT
+
+// Start Sandwiches 
+
+.Sandwiches{
+    .row{
+        .chesse1{
+            text-align: center;
+            
+            header{
+                padding: 20px;
+                background-color: #181818;
+
+            }
+            h5{
+                color: #ffffff;
+            }    
+            p{
+                color: $Friscolor;
+                line-height: 30px;
+            }
+        }
+    }
+}
+// End Sandwiches 
+
+//  Start Onephoto width
+
+.staypaly{
+    padding: 50px 0;
+    .nonn{
+        img{
+            opacity: 0.5;
+            // position: fixed;
+        }
+        .pos-icon1{
+            margin-top: -95px;
+            padding: 0 80px;
+            text-align: center;
+            span{
+                @media (max-width: 992px){
+                    padding: 0;
+                    font-size: 10px;
+
+                    margin-top: 0;
+                               
+
+                }
+                
+                // display: flex;
+                // position: relative;
+                // bottom: 365px;
+                // left: 80px;
+                padding: 0 100px;
+                color: #ffffff;
+                font-size: 50px;
+                display: inline-block;
+                margin-top: -200px;
+            }
+            i{
+                display: block;
+            }
+            label{
+                display: block;
+            }
+            small{
+                display: block;
+            }
+        }
+    }
+}
+
+
+
+
+//  End Onephoto width
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

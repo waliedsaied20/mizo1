@@ -1,0 +1,339 @@
+// Start Section Fourimg1 
+
+.Fourimg1{
+    .row{
+        align-items: center;
+        padding: 50px 0;
+        h4{
+            color: #FBF6D7;
+            text-align: center;
+            font-family: $FistFonts;
+            padding: 20px 0;
+            background-color: #181818;
+            
+            
+        }
+        .photo1{
+            img{
+                width: 100%;
+            }
+        }
+        .photo2{
+            img{
+                width: 100%;    
+            }
+        }
+        .photo3{
+            img{
+                width: 100%; 
+            }
+        }
+        .photo4{
+            img{
+                width: 100%;
+            }
+        }
+    }    
+}
+
+// End Section Fourimg1 
+
+// Start Section Twoimg2
+
+.Twoimg2{
+    .row{
+        margin: 0px;
+        align-items: center;
+        background-color: #32B6E6;
+        .onphoto{
+            padding: 0;
+            img{
+                width: 100%;
+                // margin-left: -15px;
+                // please input mixen here
+                // in col-sm
+            }
+        }
+        .onheader{
+            header{
+                h1{
+
+                    width: 59%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    margin-left: 85px;
+                    font-size: 61px;
+                    display: inline-block;
+                    font-weight: bold;
+                }
+            }
+            p{
+                color: #FBFAFB;
+                text-align: center;
+                font-size: 16px;
+                width: 35%;
+                margin-left: 148px;
+            }
+            button{
+                color: #ffffff;
+                padding: 10px;
+                margin-left: 175px;
+                border: 1px solid #181818;
+                border-radius: 30px;
+                background: #181818;
+                font-size: 15px;
+                transition: all .3s ease-in;
+
+            }
+            & button:hover{
+                color: blue;
+                background-color: black;
+            }
+                
+        }
+    }
+}
+
+// End Section Twoimg2
+
+// Start Write Line
+
+.Write_Line{
+    margin: 100px 0;
+    .row{
+        h1{
+            color: $Secoundcolor;
+            width: 50%;
+            font-size: 45px;
+        }
+     
+    }p{
+        color: $Friscolor;
+    }
+}
+
+// End Write Line 
+
+// Start Section Class Write
+
+.Class_Write{
+    .ail33{
+        .col-md-6{
+            img{
+                height: 100%;
+            }
+            .row{
+                border: 2px solid black;
+                background-color: #181818;
+                .card-body{
+                    h5{
+                        color: $Secoundcolor;
+                         
+                    }
+                    p{
+                        color: $Friscolor;
+                    }
+
+                }
+            }
+        }
+    }   
+}
+
+// End Section Class Write
+
+
+
+// Start Section Ovarlay
+.omda{
+    margin: 50px 0;
+    background-color: black;
+    
+    .Ovarlay_1{
+        background-image: url("/assets/hero-bg16.jpg");
+        background-size: 100% ;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.5;
+        .Get30{
+            position: relative;
+            top: 225px;
+            @media (max-width:992px){
+                top: 0px;
+                font-size: 15px;
+            }
+            h1{
+                text-align: center;
+                color: #ffffff;
+            }
+            p{
+                color: #ffffff;
+                text-align: center;
+            }
+            .bn1{
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+    }
+}
+// End Section Ovarlay
+
+// Start Section Meet OUR 
+.Meet_O{
+    margin: 100px 0;
+    .row{
+        header{
+            width: 50%;
+            h1{
+                color: $Secoundcolor;
+                font-weight: bold;
+            }
+        }
+        p{
+            color: $Friscolor;
+        }
+    }
+}
+// End Section Meet OUR 
+
+// Strat Section 4men
+
+.men4{
+    padding: 40px 0;
+    .row{
+        text-align: center;
+        header{
+            
+            h5{
+                padding-top: 20px ;
+                color: $Secoundcolor;
+            }
+            h6{
+                color: $Friscolor;
+            }
+        }
+        article{
+            .Lline{
+                border: 1px solid #151515;
+                width: 100%;
+            }
+            i{
+                padding: 12px;
+                &:first-of-type{
+                    color: #ffffff;
+                    transition: all .3s ease-in-out ;
+                    
+                    &:hover{
+                        color: black;
+                        background-color: #389CF1;
+                        border: 1px solid #0D8BF0;
+                        border-radius: 40%;
+                        // transform: scale(1.2) translate(0px, 1px) skew(1deg, 1deg);
+
+                    }
+                }
+                &:nth-of-type(2){
+                  color: #ffffff;
+                  transition: all .3s ease-in-out;  
+                  &:hover{
+                    color: #ffffff;
+                    background-color: #389CF1;
+                    border: 1px solid #0D8BF0;
+                    border-radius: 40%;
+                }
+            }
+                &:nth-of-type(3){
+                  color: #ffffff; 
+                  transition: all .3s ease-in-out;  
+                  &:hover{
+                    color: black;
+                    background-color: #389CF1;
+                    border: 1px solid #0D8BF0;
+                    border-radius: 40%;
+                } 
+                }
+                &:nth-of-type(4){
+                  color: #ffffff;
+                  transition: all .3s ease-in-out;  
+                  &:hover{
+                    color: #ffffff;
+                    background-color: green;
+                    border: 1px solid green;
+                    border-radius: 40%;
+                }  
+                }
+            }
+        }
+    }
+}
+
+// End Section 4men
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .Ovarlay_1{
+//     .men1{
+//         position: relative;
+//         opacity: 0.5;
+//     }
+//     .Get30{
+//         position: absolute;
+//         bottom: -3649px;
+//         left: 360px;
+//         height: 245px;
+//         // background-color: red;
+//         // width: 33%;
+//         text-align: center;
+//         h1{
+//             color: #ffffff;
+//             width: 60%;
+//             font-size: 50px;
+//             // margin-left: 170px;
+//             font-weight: bold;
+//         }
+//         p{
+//             color: #ffffff;
+//             width: 26%;
+//             font-size: 15px;
+//             margin-left: 170px;
+//         }
+//         button{
+//             color: black;
+//             padding: 15px;
+//             border: 1px solid blue;
+//             border-radius: 40px;
+//             margin-right: 390px;
+//         }
+//     }
+// }
+
+
+
+
+// End Section Ovarlay

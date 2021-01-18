@@ -1,0 +1,234 @@
+// Start Section Men Green
+
+.Men_Green{
+    margin: 50px 0;
+    .container{
+        .row{
+
+            // text-align: center;
+            h1{
+                color: $Secoundcolor;
+            }
+            h2{
+                color: #277A93;
+            }
+            h5{
+                color: #ffffff;
+                text-align: center;
+            }
+            p{
+                color: #6B6B6A;
+            }
+            .toom{
+                background-color: #181818;
+            }
+            .col-md-6{
+                padding-left: 0;
+            }
+        }
+    }
+}
+// End Section Men Green
+
+// Start Section EFFECTIVE 
+
+.EFFECTIVE_12{
+    padding: 50px 0 ;
+    .row{
+        h1{
+            color: $Secoundcolor;
+            width: 50%;
+        }
+        p{
+            color: $Friscolor;
+        }
+    }
+}
+// End Section EFFECTIVE 
+
+// Start section Salry
+
+.Salry{
+    padding: 50px 0;
+    .row{
+        text-align: center;
+        .feed{
+                background-color: #181818;
+                padding: 20px;
+            h2{
+                color: #7D817D;
+            }
+            span{
+                color: #ffffff;
+                font-size: 35px;
+                font-weight: 500;
+            }
+            small{
+                color: #7D817D;
+            }
+            .Linez3{
+                border: 1px solid #303030;
+                width: 100%;
+            }
+            h5{
+                padding: 10px;
+                color: #7D817D;
+                font-size: 15px;
+            }
+            button{
+                color: #ffffff;
+                background-color: $Secoundcolor;
+                border: 1px solid $Secoundcolor;
+                border-radius: 50px;
+                padding: 15px;
+                margin: 15px ;
+                font-weight: 700;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    background-color: #2faad759;
+                    border: 1px solid #2faad759;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+// End section Salry
+
+// Start Section Input Date 
+
+.Dateused{
+    // // background-image: url("/assets/hero-bg3.jpg");
+    // // background-size: 100% 100%;
+    // height: 100%;
+     
+    // background-size: cover;
+  
+    .photo_Date{
+        position: relative;
+        background-attachment: fixed;
+        img{
+            height: 140vh;
+            opacity: 0.5;
+            
+        }
+    }
+    
+    .Date{
+        position: absolute;
+        bottom: 100px;
+        right: 50px;
+        text-align: center;
+        align-items: center;
+        color: #080;
+        @media (max-width:992px){
+            margin-bottom: -100px ;
+            font-size: 8px;
+        }
+
+        header{
+            h1{
+                color: #ffffff;
+                font-size: 72px;
+            }
+            p{
+                color: #ffffff;
+                width: 47%;
+                margin-left: 360px;
+                @media (max-width:992px){
+                    width: 100%;
+                    margin-left: 10px;
+                }
+            }
+        }
+        article{
+            input{
+                border-bottom: 1px solid #ffffff;
+                width: 40%;
+                padding: 15px;
+                margin: 12px 0;
+            }
+            textarea{
+                width: 40%;
+            }
+            button{
+                padding: 15px;
+                color: #ffffff;
+                background-color:$Secoundcolor;
+                border: 1px solid $Secoundcolor;
+                border-radius: 40px;
+                transition: all .3s ease-in-out;
+                font-weight: bold;
+                &:hover{
+                    color: black;
+                    background-color: #ffffff;
+                    border: 1px solid #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// End Section Input Date 
+
+// Start Section Last Navbar
+
+.LastNav0{
+    padding: 150px 0;
+    .container{
+        .row{
+            text-align: center;
+
+            i{
+                color: $Secoundcolor;
+                font-size: 40px;
+                padding: 20px 0px;
+            }
+            h5{
+                color: #ffffff;
+            }
+            small{
+                color: $Friscolor;
+                a{
+                    text-decoration: none;
+                    color: $Friscolor;
+                    transition: all .3s ease;
+                    &:hover{
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.LIne0{
+    border: 1px solid  #1A1A1A;
+    width: 100%;
+}
+
+// Start Section Last Navbar
+
+.Last_page{
+    padding:30px 0px ;
+    .container{
+        .LOST{
+            display: flex;
+            justify-content: space-between;
+            img{
+                font-size: 100px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
